@@ -39,10 +39,69 @@ body {
   background-color: #00ffbb;
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* style jumbotron */
+.jumbotron {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  letter-spacing: 2.5px;
+
+}
+
+h1 {
+  font-size: 4em;
+}
+
 /* limit the width of icon section */
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+}
+
 /* style icon section */
+.icon-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  max-width: 400px;
+}
+
+.icon-holder p {
+  font-size: 17px;
+}
+
+.icon-item {
+
+  height: 130px;
+  padding-bottom: 15px;
+}
+
 /* style contact button */
+.contact {
+  margin-top: 30px;
+}
+
 /* style our button */
+.btn-get {
+  color: #fff;
+  background-color: #00ffbb8d;
+  font-size: 17px;
+  padding: 10px 60px;
+  letter-spacing: 1.3px;
+  border-radius: 10px;
+}
+
 /* style footer */
 /* use media queries to change icon size in small devices */
