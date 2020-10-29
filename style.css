@@ -74,7 +74,8 @@ h1 {
   align-items: center;
   text-align: center;
   color: white;
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  padding: 20px;
   max-width: 400px;
 }
 
@@ -83,7 +84,6 @@ h1 {
 }
 
 .icon-item {
-
   height: 130px;
   padding-bottom: 15px;
 }
@@ -103,5 +103,47 @@ h1 {
   border-radius: 10px;
 }
 
+.btn-get:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
 /* style footer */
+.myfooter {
+  display: flex;
+  justify-content: start;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(176, 176, 176);
+  position: relative;
+  margin: 90px 0 0 0;
+  padding-left: 10px;
+  width: 100%;
+}
+
+#footer-text {
+  color: #fff;
+}
+
 /* use media queries to change icon size in small devices */
+@media (max-width:768px) {
+  .icon-item {
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .jumbotron {
+    padding: 25px;
+  }
+
+  .icon-holder {
+    margin-top: 25px;
+  }
+
+  .btn-get {
+    font-size: 15px;
+    padding: 8px 40px;
+  }
+}
