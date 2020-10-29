@@ -29,6 +29,15 @@ body {
   border-bottom: 2px solid #00FFB8;
 }
 
+.btn-search {
+  color: rgb(147, 144, 144);
+  border-color: #00ffbb;
+}
+
+.btn-search:hover {
+  color: #fff;
+  background-color: #00ffbb;
+}
 
 /* style jumbotron */
 /* limit the width of icon section */
